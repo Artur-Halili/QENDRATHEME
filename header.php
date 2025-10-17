@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
+    
 <head>
+    
+   
+   
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,25 +13,21 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
     <div id="page" class="site">
-        <header>
+        <header> <p id="titla">QENDRA MOBILE SHOP</p>
             <section class="top-bar">
-                <div class="container">
+                
                     <div class="logo">
-                        <?php 
+                          <?php 
                         if( has_custom_logo() ){
                             the_custom_logo();
                         }else{
                             ?>
-                                <a href="<?php echo home_url( '/' ); ?>"><span><?php bloginfo( 'name' ); ?></span></a>
+                                <a id="logoja" href="<?php echo home_url( '/' ); ?>"><span><?php bloginfo( 'name' ); ?></span></a>
                             <?php
                         }
                         ?>
                     </div>
-                    <div class="searchbox">
-                        <?php get_search_form(); ?>
-                    </div>                    
-                </div>
-            </section>
+                    
             <?php 
             if( ! is_page( 'landing-page' )): ?>
             <section class="menu-area">

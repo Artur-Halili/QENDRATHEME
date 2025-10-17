@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<br><br><br>
 <div class="container">
     <h2>Featured Phones</h2>
     <div class="products">

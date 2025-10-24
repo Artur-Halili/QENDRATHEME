@@ -1,10 +1,9 @@
 <?php get_header(); ?>
 
 <header>
-    <p id="titla">QENDRA MOBILE SHOP</p>
+    <p id="titla1">QENDRA MOBILE SHOP</p>
     
-    <!-- Add site tagline / description -->
-    <p><?php bloginfo('description'); ?></p>
+    <p><?php bloginfo('description'); ?>All the Accesibilities you need can be found here</p>
 
     <!-- Navigation bar -->
     <nav>
@@ -18,8 +17,9 @@
 
 <main>
     <!-- Add your page content here -->
-    <h1>Welcome to Qendra Mobile Store</h1>
-    <p>Browse our latest phones and accessories.</p>
+    <h1 id="smptitle">Welcome to Qendra Mobile Store</h1>
+    <p id="smptext">Browse our latest phones and accessories.</p>
+    <br><br><br><br><br><br> <br><br><br><br><br><br>
 </main>
 
 <?php get_footer(); ?>

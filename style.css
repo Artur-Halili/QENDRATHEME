@@ -22,6 +22,7 @@ body {
     -webkit-box-shadow:0px 0px 227px 13px rgba(201,214,210,0.65);
 -moz-box-shadow: 0px 0px 227px 13px rgba(201,214,210,0.65);
 box-shadow: 0px 0px 227px 13px rgba(201,214,210,0.65);
+
 }
 
 #logoja{
@@ -30,10 +31,12 @@ box-shadow: 0px 0px 227px 13px rgba(201,214,210,0.65);
 
 #smptitle{
     text-align: center;
+    color: white;
 }
 
 #smptext{
     text-align: center;
+    color: white;
 }
 
 header, footer {
@@ -42,7 +45,8 @@ header, footer {
     text-align: center;
     padding: 20px;
     border:none !important;
-    
+     background-image: url(https://images.unsplash.com/photo-1690321608227-df2b9cf50821?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687);
+    background-size: cover;
 }
 
 nav {
@@ -52,6 +56,7 @@ nav {
     -webkit-box-shadow:0px 0px 227px 13px rgba(201,214,210,0.65);
 -moz-box-shadow: 0px 0px 227px 13px rgba(201,214,210,0.65);
 box-shadow: 0px 0px 227px 13px rgba(201,214,210,0.65);
+
 }
 
 #titladiv{
@@ -70,6 +75,7 @@ box-shadow: 0px 0px 227px 13px rgba(201,214,210,0.65);
   color: white;
   height: 70px;
   background-color: transparent !important;
+  
 }
 
 
@@ -112,7 +118,9 @@ nav a:hover {
     margin: 0 auto;
     padding: 20px;
     background: white;
-    
+     -webkit-box-shadow:0px 0px 35px 20px rgba(123,128,126,0.65);
+-moz-box-shadow: 0px 0px 35px 20px rgba(123,128,126,0.65);
+box-shadow: 0px 0px 35px 20px rgba(123,128,126,0.65);
 }
 
 .products {
@@ -120,10 +128,11 @@ nav a:hover {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+   
 }
 
 .product {
-    border: 1px solid #ddd;
+    border: 1px solid gray;
     border-radius: 8px;
     -webkit-box-shadow:0px 0px 35px 20px rgba(123,128,126,0.65);
 -moz-box-shadow: 0px 0px 35px 20px rgba(123,128,126,0.65);
@@ -132,7 +141,8 @@ box-shadow: 0px 0px 35px 20px rgba(123,128,126,0.65);
     padding: 35px;
     margin: 25px;
     text-align: center;
-    background-color: #030303;
+     background-image: url(https://images.unsplash.com/photo-1690321608227-df2b9cf50821?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687);
+    background-size: cover;
     color:white;
 }
 
@@ -141,10 +151,12 @@ box-shadow: 0px 0px 35px 20px rgba(123,128,126,0.65);
     width: 100%;
     height: auto;
     border-radius: 5px;
+    
 }
 
 footer p {
     margin: 0;
+    
 }
 
 img {

@@ -4,9 +4,9 @@
     <h2>Featured Phones</h2>
     <div class="products">
         <div class="product">
-            <img src="https://www.apple.com/newsroom/images/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/article/Apple-iPhone-16-Pro-hero-240909_inline.jpg.large_2x.jpg" alt="iPhone">
-            <h3>iPhone 16 Pro/Pro Max</h3>
-            <p>Beauty and Performance to Match 900$/950$</p>
+            <img src="https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2025/10/iphone-17-pro-max-hand-hero.JPG?q=49&fit=crop&w=1600&h=900&dpr=2" alt="iPhone">
+            <h3>iPhone 17 Pro/Pro Max</h3>
+            <p>Originality that Cant be Matched 1000$/1050$</p>
         </div>
                 <div class="product">
             <img src="https://www.apple.com/newsroom/images/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/article/Apple-iPhone-16-Pro-hero-240909_inline.jpg.large_2x.jpg" alt="iPhone">

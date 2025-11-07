@@ -1,15 +1,18 @@
 <?php
 
- require get_template_directory() . '/inc/customizer.php';
-
- function load_scripts(){
+function load_scripts(){
     wp_enqueue_style( 'style', get_stylesheet_uri(), array(), filemtime( get_template_directory() . '/style.css' ), 'all' );
     
-   // Correct script loading
-   wp_enqueue_script( 'dropdown', get_template_directory_uri() . '/js/dropdown.js', array(), '1.0', false );
+    // Existing script
+    wp_enqueue_script( 'dropdown', get_template_directory_uri() . '/js/dropdown.js', array(), '1.0', false );
 
- }
+    // New popup script
+    wp_enqueue_script( 'scroll-popup', get_template_directory_uri() . '/js/popup.js', array('jquery'), '1.0', true );
+}
 add_action( 'wp_enqueue_scripts', 'load_scripts' );
+
+wp_enqueue_script( 'scroll-fade', get_template_directory_uri() . '/js/scroll-fade.js', array(), '1.0', true );
+
 
 
 function config(){

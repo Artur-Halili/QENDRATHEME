@@ -6,10 +6,10 @@
     <p><?php bloginfo('description'); ?>All the Accesibilities you need can be found here</p>
 
     <!-- Navigation bar -->
-    <nav>
+    <nav id="ajid">
     <a href="<?php echo esc_url(home_url('/')); ?>">Home</a>
     <a href="<?php echo esc_url(home_url('/shop')); ?>">Shop</a>
-    <a href="<?php echo esc_url(home_url('/about')); ?>">About Us</a>
+    <a href="<?php echo esc_url(home_url('about.php')); ?>">About Us</a>
     <a href="<?php echo esc_url(home_url('/contact')); ?>">Contact</a>
 </nav>
 

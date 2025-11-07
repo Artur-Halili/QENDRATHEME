@@ -12,9 +12,10 @@
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-    <div id="page" class="site">
+    <div id="page" class="site fade-in">
         <header> <p id="titla">QENDRA MOBILE SHOP</p>
-            <section class="top-bar">
+        
+            <section class="top-bar ">
                 
                     <div class="logo">
                           <?php 
